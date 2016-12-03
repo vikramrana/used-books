@@ -1,3 +1,21 @@
+# Used Books selling React Firebase Web Application
+This app lets you browse through used books which are been sold by the students. You can also post your book, search through posted books, and all of this happenes in realtime, thanks to the firebase nosql backend database.
+## Installation
+In your terminal use the command below to **install all the dependencies** required for this project. Make sure you're in the root directory.
+```
+npm install
+```
+## Running the file
+In your terminal use the command below to run this project once the dependencies are installed. The project will show up at your <http://localhost:8080/>.
+```
+npm run start
+```
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
