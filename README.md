@@ -8,7 +8,7 @@ This app lets you browse through used books which are been sold by the students.
 cd used_books
 ```
 
-4. In your terminal use the command below to **install all the dependencies** required for this project. Make sure you're in the root directory.
+In your terminal use the command below to **install all the dependencies** required for this project. Make sure you're in the root directory.
 ```
 npm install
 ```
