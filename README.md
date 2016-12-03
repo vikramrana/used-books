@@ -1,14 +1,21 @@
 # Used Books selling React Firebase Web Application
-This app lets you browse through used books which are been sold by the students. You can also post your book, search through posted books, and all of this happenes in realtime, thanks to the firebase nosql backend database.
+This app lets you browse through used books which are been sold by the students. You can also post your book, search through posted books, and all of this happens in realtime, thanks to the firebase nosql backend database.
 ## Installation
-In your terminal use the command below to **install all the dependencies** required for this project. Make sure you're in the root directory.
+1. Make sure you have installed Node: <https://nodejs.org/en/>
+2. Unzip the Used Books Folder.
+3. Open the folder using terminal
+```
+cd used_books
+```
+
+4. In your terminal use the command below to **install all the dependencies** required for this project. Make sure you're in the root directory.
 ```
 npm install
 ```
 ## Running the file
-In your terminal use the command below to run this project once the dependencies are installed. The project will show up at your <http://localhost:8080/>.
+In your terminal use the command below to run this project once the dependencies are installed. The project will show up at your <http://localhost:3000/>.
 ```
-npm run start
+npm start
 ```
 
 
