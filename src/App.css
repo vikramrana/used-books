@@ -1,0 +1,171 @@
+.App {
+  /*text-align: center;*/
+  background-color: rgb(200, 200, 200);
+  min-height: 100vh;
+  background-image: url('images/stardust_@2X.png');
+  padding-bottom: 100px;
+}
+
+.app-header {
+  padding: 10px;
+  margin-bottom: 100px;
+  border-radius: 0;
+}
+
+h2.logo{
+  font-weight: 100;
+}
+
+.search-bar{
+  width: 500px;
+  justify-content: center;
+}
+
+.search-container{
+  display: flex;
+  margin-bottom: 80px;
+  margin-top: 50px;
+  justify-content: center;
+
+}
+
+.ui.inverted.menu {
+    background: rgba(0, 0, 0, 0.29);
+}
+
+.ui.raised.card, .ui.raised.cards >.card {
+
+  box-shadow: none;
+}
+
+.ui.cards a.card:hover, .ui.link.card:hover, .ui.link.cards .card:hover, a.ui.card:hover {
+  box-shadow: 0px 9px 8px 0px rgba(0, 0, 0, 0.56);
+}
+
+.ui.modal>.content>.image {
+  flex: 0 0 50%;
+}
+
+.search-container > * {
+  width:600px;
+  height: 60px;
+}
+
+.ui.modal>.content>.icon+.description, .ui.modal>.content>.image+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ui.modal>.content {
+    background: #ddd;
+}
+
+.ModalLabel {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.ContactForm {
+    margin-top: 2rem;
+}
+
+.PostBookForm {
+  margin: auto 1.5rem;
+}
+
+div.description h3,
+div.description h4 {
+  margin: 0;
+  font-weight: 300;
+  color: #505050;
+  text-align: right;
+}
+
+.ModalLabel h2 {
+  margin: 0;
+  font-size: 35px;
+  font-weight: 100;
+  color: rgb(35, 36, 36);
+}
+
+.PostBookModalContainer{
+  display: flex;
+}
+
+.PostBookModalContainer > *{
+  flex: 0 0 50%;
+}
+
+.FileUpload{
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    padding: 15%;
+    border-style: dashed;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.ui.modal>.header {
+    background: #404040;
+    color: rgba(255, 255, 255, 0.85);
+    border-bottom: none;
+}
+
+.ContactFormModal p{
+  padding: 2rem;
+  background: white;
+}
+
+.blurring.dimmed.dimmable>:not(.dimmer) {
+    -webkit-filter: blur(40px) grayscale(.7);
+    filter: blur(40px) grayscale(.7);
+}
+
+.ui.modal>.header:not(.ui) {
+    font-size: 1.75rem;
+    font-weight: 300;
+}
+
+.ui.image.label img {
+    vertical-align: none;
+        border-radius: .28571429rem 0 0 .28571429rem;
+    margin-right: 10px;
+}
+
+.ui.menu .item>.label {
+     background: #E8E8E8;
+     color: rgba(0,0,0,.6);
+    margin-left: 1em;
+    padding: .75em;
+}
+
+.login-post{
+  margin: 10%;
+  padding: 10%;
+  text-align: center;
+}
+
+.ui.modal>.content>.image+.description {
+    flex: 1 1 auto;
+}
+
+.ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui) {
+    font-weight: 100;
+    font-size: 1.6em;
+    margin-top: .75em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
