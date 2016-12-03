@@ -1,5 +1,8 @@
 # Used Books selling React Firebase Web Application
 This app lets you browse through used books which are been sold by the students. You can also post your book, search through posted books, and all of this happens in realtime, thanks to the firebase nosql backend database.
+
+It also uses Facebook Authentication to authenticate users as well as google cloud storage to serve and store images.
+
 ## Installation
 1. Make sure you have installed Node: <https://nodejs.org/en/>
 2. Unzip the Used Books Folder.
